@@ -1,0 +1,146 @@
+a:link
+{
+    text-decoration:none;
+} 
+
+.button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5786a6), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #5786a6, #65a9d7);
+    background: -moz-linear-gradient(top, #5786a6, #65a9d7);
+    background: -ms-linear-gradient(top, #5786a6, #65a9d7);
+    background: -o-linear-gradient(top, #5786a6, #65a9d7);
+    padding: 13.5px 27px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 22px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .button:hover {
+    border-top-color: #0e3b59;
+    background: #0e3b59;
+    color: #ccc;
+    }
+ .button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+    }
+
+body 
+{ 
+    font-size:100%;
+    color: black; 
+    font-family:arial;
+    margin:1em;
+    padding:0em;
+    background-image: url("fond.png");
+    background-repeat: repeat;
+	background-color: #A9D0F5;
+}
+
+h1 
+{
+    color:blue;
+    background-color:transparent;
+    text-align: center;
+    font-weight: bold
+}
+
+h2 
+{
+    color:blue;
+    background-color:transparent;
+    text-align: left;
+    font-weight: bold
+}
+
+h3 
+{
+    color:blue;
+    background-color:transparent;
+    text-align: left;
+    font-weight: normal;
+}
+
+p 
+{
+    /*text-indent:0em;*/
+    text-align: justify;
+}
+
+code,pre, tt
+{
+    color:green;
+}
+
+th 
+{
+	border: 1px outset #999;
+	background-color: #FAF0E6;
+}
+
+td 
+{
+	border: 1px outset #999;
+}
+
+table
+{
+    width: 99%; /*A cause du mauvais rendu d'IE avec 100% */
+    border: 1px outset grey;
+    border-collapse: collapse;
+    background-color: #F3FEFF;
+    text-align: center;
+}
+
+.no_border
+{
+    border: none;
+    border-collapse: collapse;
+    background-color:transparent;
+}
+
+
+
+#menu
+{
+	margin-top: 0em;
+	margin-left: 0em;
+    border:1px solid #999; 
+    padding:1em;
+    background: #81BEF7; 
+}
+
+
+#corps
+{
+	margin-top: 1em;
+	margin-left: 0em;
+    border:1px solid #999; 
+    padding:1em;
+    background: #81BEF7; 
+}
+
+#bas
+{
+    margin-top: 1em;
+    margin-left: 0em;
+    border:1px solid #999; 
+	padding:1em;
+    background: #81BEF7; 
+    padding:0em;
+    font-size:small;
+}
+
+
+
+
